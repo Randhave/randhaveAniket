@@ -6,11 +6,11 @@ import Footer from './Components/footer/Footer'
 import Navbar from './Components/navbar/Navbar'
 import Home from './Components/home/Home'
 import Services from './Components/services/Services'
-import {  Route, Switch, Redirect } from 'react-router-dom'
+import { Route, Switch, Redirect } from 'react-router-dom'
 import './App.css'
 import Work from './Components/work/Work'
 import TemplateProvider from './templates/TemplateProvider'
- 
+
 const App = () => {
 
   return (
@@ -20,7 +20,8 @@ const App = () => {
           <Navbar />
 
           <Switch>
-            <Route exact path='/' component={Home} />
+            <Route path='' component={Home} />
+            <Route path='/' component={Home} />
             <Route exact path='/home' component={Home} />
             <Route exact path='/service' component={Services} />
             <Route exact path='/skill' component={Skill} />
@@ -28,13 +29,13 @@ const App = () => {
             <Route exact path='/contact' component={Contacts} />
             <Route exact path='/footer' component={Footer} />
             <Route exact path='/work' component={Work} />
-            <Route exact path="/*">
+            <Route path="/*">
               <Redirect to="/" />
             </Route>
           </Switch>
-          
+
         </TemplateProvider>
-     
+
       </div>
     </>
   )
