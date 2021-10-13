@@ -61,13 +61,13 @@ const Footer = () => {
                         </Link>
                     </Box>
                     <Box>
-                        <Link href="https://www.linkedin.com/company/login/">
+                        <Link href="https://www.linkedin.com/in/aniket-randhave-07b478216">
                             <LinkedInIcon style={{ fontSize: 30 }} color="primary" target="_blank" />
                         </Link>
 
                     </Box>
                     <Box>
-                        <Link href="https://www.instagram.com/accounts/onetap/?next=%2F">
+                        <Link href="https://www.instagram.com/aniketrandhave34">
                             <InstagramIcon style={{ fontSize: 30 }} color="secondary" target="_blank" />
                         </Link>
 

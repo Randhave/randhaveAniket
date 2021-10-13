@@ -228,7 +228,7 @@ export const introIcon = [
         LinkdinIcon: <FaLinkedin size="2rem" color="#ffffff" target="_blank" />,
         fbIcon: <FaFacebookSquare size="2rem" color="#ffffff" target="_blank" />,
         GithubLink: 'https://github.com/Randhave',
-        InstaLink: 'https://www.instagram.com/accounts/onetap/?next=%2F',
+        InstaLink: 'https://www.instagram.com/aniketrandhave34',
         LinkdinLink: 'https://www.linkedin.com/in/aniket-randhave-07b478216',
         fbLink: 'https://www.facebook.com/aniket.randhave.52/'
 
