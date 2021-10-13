@@ -21,14 +21,14 @@ const App = () => {
 
           <Switch>
             <Route path='' component={Home} />
-            <Route path='/' component={Home} />
-            <Route exact path='randhaveAniket/home' component={Home} />
-            <Route exact path='randhaveAniket/service' component={Services} />
-            <Route exact path='randhaveAniket/skill' component={Skill} />
-            <Route exact path='randhaveAniket/about' component={About} />
-            <Route exact path='randhaveAniket/contact' component={Contacts} />
+            <Route exact path='/' component={Home} />
+            <Route exact path='/home' component={Home} />
+            <Route exact path='/service' component={Services} />
+            <Route exact path='/skill' component={Skill} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/contact' component={Contacts} />
             {/* <Route exact path='/footer' component={Footer} /> */}
-            <Route exact path='randhaveAniket/work' component={Work} />
+            <Route exact path='/work' component={Work} />
             <Route path="/*">
               <Redirect to="/" />
             </Route>

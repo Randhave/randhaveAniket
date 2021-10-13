@@ -68,12 +68,12 @@ const Navbar = () => {
     }
     const showNavbar = () => (
         <Box className={classes.menuDiv} >
-            <NavLink onClick={handleClose} style={{ textDecoration: 'none', textAlign: 'initial' }} to='randhaveAniket/'> <Typography className={classes.menuText} >Home</Typography> </NavLink>
-            <NavLink onClick={handleClose} style={{ textDecoration: 'none', textAlign: 'initial' }} to='randhaveAniket/about'> <Typography className={classes.menuText}>About</Typography> </NavLink>
-            <NavLink onClick={handleClose} style={{ textDecoration: 'none', textAlign: 'initial' }} to='randhaveAniket/service'> <Typography className={classes.menuText} >Service</Typography> </NavLink>
-            <NavLink onClick={handleClose} style={{ textDecoration: 'none', textAlign: 'initial' }} to='randhaveAniket/skill'> <Typography className={classes.menuText}>Skills</Typography> </NavLink>
-            <NavLink onClick={handleClose} style={{ textDecoration: 'none', textAlign: 'initial' }} to='randhaveAniket/contact'> <Typography className={classes.menuText}>Contact</Typography> </NavLink>
-            <NavLink onClick={handleClose} style={{ textDecoration: 'none', textAlign: 'initial' }} to='randhaveAniket/work'> <Typography className={classes.menuText}>Work</Typography> </NavLink>
+            <NavLink onClick={handleClose} style={{ textDecoration: 'none', textAlign: 'initial' }} to='/'> <Typography className={classes.menuText} >Home</Typography> </NavLink>
+            <NavLink onClick={handleClose} style={{ textDecoration: 'none', textAlign: 'initial' }} to='/about'> <Typography className={classes.menuText}>About</Typography> </NavLink>
+            <NavLink onClick={handleClose} style={{ textDecoration: 'none', textAlign: 'initial' }} to='/service'> <Typography className={classes.menuText} >Service</Typography> </NavLink>
+            <NavLink onClick={handleClose} style={{ textDecoration: 'none', textAlign: 'initial' }} to='/skill'> <Typography className={classes.menuText}>Skills</Typography> </NavLink>
+            <NavLink onClick={handleClose} style={{ textDecoration: 'none', textAlign: 'initial' }} to='/contact'> <Typography className={classes.menuText}>Contact</Typography> </NavLink>
+            <NavLink onClick={handleClose} style={{ textDecoration: 'none', textAlign: 'initial' }} to='/work'> <Typography className={classes.menuText}>Work</Typography> </NavLink>
         </Box>
     )
     return (
