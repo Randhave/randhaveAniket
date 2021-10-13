@@ -91,7 +91,7 @@ const Navbar = () => {
                     <List className={classes.List}>
                         <ListItem className={classes.listItem}>
                             <NavLink style={{ textDecoration: 'none' }} to='/'> <Typography className={classes.text}>Home</Typography> </NavLink>
-                            <NavLink style={{ textDecoration: 'none' }} to='randhaveAniket/about'> <Typography className={classes.text}>About</Typography> </NavLink>
+                            <NavLink style={{ textDecoration: 'none' }} to='/about'> <Typography className={classes.text}>About</Typography> </NavLink>
                             <NavLink style={{ textDecoration: 'none' }} to='/service'> <Typography className={classes.text}>Service</Typography> </NavLink>
                             <NavLink style={{ textDecoration: 'none' }} to='/skill'> <Typography className={classes.text}>Skills</Typography> </NavLink>
                             <NavLink style={{ textDecoration: 'none' }} to='/work'> <Typography className={classes.text}>Work</Typography> </NavLink>
