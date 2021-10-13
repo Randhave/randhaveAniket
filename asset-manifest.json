@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/randhaveAniket/static/css/main.9474fbb0.chunk.css",
+    "main.js": "/randhaveAniket/static/js/main.a70ff801.chunk.js",
+    "main.js.map": "/randhaveAniket/static/js/main.a70ff801.chunk.js.map",
+    "runtime-main.js": "/randhaveAniket/static/js/runtime-main.7bb05340.js",
+    "runtime-main.js.map": "/randhaveAniket/static/js/runtime-main.7bb05340.js.map",
+    "static/js/2.0e70b66a.chunk.js": "/randhaveAniket/static/js/2.0e70b66a.chunk.js",
+    "static/js/2.0e70b66a.chunk.js.map": "/randhaveAniket/static/js/2.0e70b66a.chunk.js.map",
+    "index.html": "/randhaveAniket/index.html",
+    "static/css/main.9474fbb0.chunk.css.map": "/randhaveAniket/static/css/main.9474fbb0.chunk.css.map",
+    "static/js/2.0e70b66a.chunk.js.LICENSE.txt": "/randhaveAniket/static/js/2.0e70b66a.chunk.js.LICENSE.txt",
+    "static/media/introInfo_1.48a5cfc8.jpg": "/randhaveAniket/static/media/introInfo_1.48a5cfc8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bb05340.js",
+    "static/js/2.0e70b66a.chunk.js",
+    "static/css/main.9474fbb0.chunk.css",
+    "static/js/main.a70ff801.chunk.js"
+  ]
+}
