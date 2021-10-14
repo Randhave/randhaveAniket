@@ -61,19 +61,19 @@ const Footer = () => {
                         </Link>
                     </Box>
                     <Box>
-                        <Link href="https://www.linkedin.com/in/aniket-randhave-07b478216">
+                        <Link href="https://www.linkedin.com/in/aniket-randhave-07b478216" target="_blank" >
                             <LinkedInIcon style={{ fontSize: 30 }} color="primary" target="_blank" />
                         </Link>
 
                     </Box>
                     <Box>
-                        <Link href="https://www.instagram.com/aniketrandhave34">
+                        <Link href="https://www.instagram.com/aniketrandhave34" target="_blank">
                             <InstagramIcon style={{ fontSize: 30 }} color="secondary" target="_blank" />
                         </Link>
 
                     </Box>
                     <Box>
-                        <Link href="https://www.facebook.com/aniket.randhave.52/">
+                        <Link href="https://www.facebook.com/aniket.randhave.52/" target="_blank" >
                             <FacebookIcon style={{ fontSize: 30 }} color="primary" target="_blank" />
                         </Link>
 

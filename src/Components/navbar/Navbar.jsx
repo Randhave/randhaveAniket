@@ -83,7 +83,7 @@ const Navbar = () => {
                 <IconButton className={classes.MenuIcon} onClick={handleOpen} color='inherit'>
                     <Menu />
                 </IconButton>
-                <Drawer onClose={handleClose} open={open}>
+                <Drawer style={{ background: '#000029'}} onClose={handleClose} open={open}>
                     {showNavbar()}
                 </Drawer>
 

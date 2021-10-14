@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { IconContext } from "react-icons";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL} >
     <React.StrictMode>
       <IconContext.Provider value={{ color: "black" }}>
         <App />

@@ -55,16 +55,16 @@ const useStyle = makeStyles(theme => ({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        margin: '1rem',
+        // margin: '1rem',
         // background: '#151414',
         background: 'rgb(0 0 0 / 26%)',
         color: 'white',
-        [theme.breakpoints.down('sm')]: {
-            margin: '1rem'
-        },
-        [theme.breakpoints.down('xs')]: {
-            margin: '1rem'
-        },
+        // [theme.breakpoints.down('sm')]: {
+        //     margin: '1rem'
+        // },
+        // [theme.breakpoints.down('xs')]: {
+        //     margin: '1rem'
+        // },
     },
     root: {
         '& > *': {
