@@ -9,7 +9,7 @@ const useStyle = makeStyles(theme => ({
         background: 'rgb(0 0 0 / 26%)',
         padding: '1rem 180px',
         [theme.breakpoints.down('lg')]: {
-            padding: '1rem 180px',
+            padding: '1rem 7rem',
         },
         [theme.breakpoints.down('md')]: {
             padding: '10px 184px',
@@ -32,11 +32,24 @@ const useStyle = makeStyles(theme => ({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        margin: 'auto'
+        // margin: 'auto' 
+
+        [theme.breakpoints.down('lg')]: {
+            margin: '0rem 10rem',
+        },
+        [theme.breakpoints.down('md')]: {
+            margin: 'auto'
+        },
+        [theme.breakpoints.down('sm')]: {
+            margin: 'auto'
+        },
+        [theme.breakpoints.down('xs')]: {
+            margin: 'auto'
+        },
 
     },
     heading: {
-        
+
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -49,7 +62,7 @@ const useStyle = makeStyles(theme => ({
             color: 'white',
             // padding: '5px',
             fontFamily: 'Play',
-         
+
         },
         [theme.breakpoints.down('sm')]: {
             marginLeft: '37px',
@@ -86,30 +99,32 @@ const useStyle = makeStyles(theme => ({
 
     box1: {
         [theme.breakpoints.down('lg')]: {
-            margin: '0rem 1rem'
+            margin: '0rem 0rem',
+           
         },
         [theme.breakpoints.down('md')]: {
-            margin: '0rem 1rem'
+            margin: '0rem 0rem',
+            
         },
         [theme.breakpoints.down('sm')]: {
             margin: '0rem',
-            padding: '0rem 2rem'
+            // padding: '0rem 2rem'
         },
         [theme.breakpoints.down('xs')]: {
             margin: '0rem',
-            padding: '0rem 2rem'
+            padding: '0rem 0rem'
         },
     },
     skillDiv: {
 
         [theme.breakpoints.down('sm')]: {
-            marginLeft: '37px',
+            // marginLeft: '37px',
             margin: '10px',
             padding: '0rem',
         },
         [theme.breakpoints.down('xs')]: {
-            marginLeft: '37px',
-            margin: '10px',
+            // marginLeft: '37px',
+            margin: '10px 0px',
             padding: '0rem',
         },
         '& > *': {
@@ -120,10 +135,22 @@ const useStyle = makeStyles(theme => ({
         }
     },
     backEnd: {
-        marginRight: '8rem'
+        marginRight: '8rem',
+        [theme.breakpoints.down('sm')]: {
+
+        },
+        [theme.breakpoints.down('xs')]: {
+
+        },
     },
     database: {
-        marginRight: '8rem'
+        marginRight: '8rem',
+        [theme.breakpoints.down('sm')]: {
+
+        },
+        [theme.breakpoints.down('xs')]: {
+
+        },
     },
 
 
@@ -134,22 +161,22 @@ const Skill = () => {
         <>
             <Box className={classes.grid}>
                 <Box>
-                    <Box className={classes.heading} style={{  textAlign:'center'}}>
-                        <Typography  >My skills</Typography>
+                    <Box className={classes.heading} style={{ textAlign: 'center' }}>
+                        <Typography>My skills</Typography>
                     </Box>
 
                     <Box className={classes.mainDiv} >
 
-                        <Grid container style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'flex-start' }} >
+                        <Grid container style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'flex-start', margin: '10px 0px' }} >
                             <Box className={classes.skillDiv} style={{ background: 'black', }}>
-                                <Typography  >Front-End</Typography>
+                                <Typography>Front-End</Typography>
                             </Box>
                             <Box className={classes.box1}>
-                                <Grid container className={clsx(classes.maingrid, classes.gridOne)}  >
+                                <Grid container container className={clsx(classes.database)} >
                                     {
                                         frontEnd.map(skill => (
                                             <>
-                                                <Grid item lg={4} md={3} sm={3} xs={4}  >
+                                                <Grid item lg={3} md={3} sm={3} xs={4}  >
                                                     <Card className={classes.progressDiv} style={{ boxShadow: '0px 1px 1px 0px #e0e0e0', background: 'rgb(0 0 0 / 12%)', margin: '5px', textAlign: 'center' }}>
                                                         <Typography> {skill.language} </Typography>
                                                     </Card>
@@ -166,13 +193,13 @@ const Skill = () => {
                                 <Typography style={{ color: 'white', fontFamily: 'Play', padding: '1rem 22px', textTransform: 'uppercase' }}>Back-End</Typography>
                             </Box>
                             <Box className={classes.box1}>
-                                <Grid container className={clsx(classes.maingrid, classes.gridOne, classes.backEnd)}  >
+                                <Grid container   >
                                     {
                                         backEnd.map(skill => (
                                             <>
                                                 <Grid item lg={3} md={3} sm={3} xs={4}  >
                                                     <Card className={classes.progressDiv} style={{ boxShadow: '0px 1px 1px 0px #e0e0e0', background: 'rgb(0 0 0 / 12%)', margin: '5px', textAlign: 'center' }}>
-                                                        <Typography  > {skill.language} </Typography>
+                                                        <Typography> {skill.language} </Typography>
                                                     </Card>
                                                 </Grid>
                                             </>
@@ -188,7 +215,7 @@ const Skill = () => {
                                 <Typography style={{ color: 'white', fontFamily: 'Play', padding: '1rem 21px', textTransform: 'uppercase' }}>Database</Typography>
                             </Box>
                             <Box className={classes.box1}>
-                                <Grid container className={clsx(classes.maingrid, classes.gridOne, classes.database)}  >
+                                <Grid container className={clsx(classes.database)}  >
                                     {
                                         database.map(skill => (
                                             <>

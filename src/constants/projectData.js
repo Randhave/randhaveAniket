@@ -112,7 +112,7 @@ export const projectData =
             title: "SmartProfile",
             language: 'MERN-STACK',
             url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSglEUKaK7WOYHQWPgtbkp8w4nWsVydLf-lUA&usqp=CAU',
-              link: 'https://createyourprofile.herokuapp.com/'
+            link: 'https://createyourprofile.herokuapp.com/'
         },
 
     ]
@@ -178,11 +178,7 @@ export const backEnd =
             icon: <FaNodeJs size="2rem" color="#00fa00" />,
             language: 'Expressjs'
         },
-        // {
-        //     id: 3,
-        //     icon: <FaPython size="2rem" color="#e6e200" />,
-        //     language: 'Python'
-        // },
+
         {
             id: 4,
             icon: <FaJava size="2rem" color="#bd0000" />,
@@ -197,6 +193,11 @@ export const backEnd =
             id: 5,
             icon: <FaJava size="2rem" color="#00e600" />,
             language: 'Springboot'
+        },
+        {
+            id: 3,
+            icon: <FaPython size="2rem" color="#e6e200" />,
+            language: 'Microservices'
         },
     ]
 
